@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <title>Skeleton Cheatsheet</title>
+    <style>
+        #grid-color{
+            background: #f4f4f4;
+            border: 1px solid black;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+
+    <!-- Headings -->
+    <h1>Header</h1>
+    <h2>Header</h2>
+    <h3>Header</h3>
+    <h4>Header</h4>
+    <h5>Header</h5>
+    <h6>Header</h6>
+
+    <!-- Standard text -->
+    <p>Hello, how are you doing? Oh, so, you're feeling terrible? Well, what can I say? People just suck.</p>
+
+    <!-- Other styled text tags -->
+    <strong>Bolded</strong>
+    <em>Italicized</em>
+    <a>Colored</a>
+    <u>Underlined</u>
+
+    <hr>
+
+    <!-- Floating -->
+    <h2 class="u-pull-left">Left</h2>
+    <h2 class="u-pull-right">Right</h2>
+    <br class="u-cf">
+
+    <!-- Buttons -->
+    <button>Button</button>
+    <input type="submit" value="Submit">
+    <input type="button" value="Submit">
+    <a href="#" class="button">Link</a>
+
+    <br>
+
+    <!-- Primary Buttons -->
+    <button class="button-primary">Button</button>
+    <input class="button-primary" type="submit" value="Submit">
+    <input class="button-primary" type="button" value="Submit">
+    <a href="#" class="button button-primary">Link</a>
+
+    <!-- Full width (not just for buttons)-->
+    <button class="u-full-width button-primary">Button</button>
+
+    <!-- Lists -->
+    <ul>
+        <li>Life</li>
+        <li>Terrible</li>
+        <li>Awful</li>
+        <li>Torture</li>
+            <ul>
+                <li>Pain</li>
+                <li>Revenge</li>
+            </ul>
+    </ul>
+
+    <!-- Codeblock for displaying code -->
+    <pre>
+        <code>
+            body {
+                background-color: #ffff
+            }
+        </code>
+    </pre>
+
+    <!-- Tables -->
+    <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Favorite anime:</th>
+            <th>Favorite video game:</th>
+            <th>Favorite movie:</th>
+            <th>Favorite song:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Death Note</td>
+            <td>Dark Cloud</td>
+            <td>American Psycho</td>
+            <td>Komm süsser Tod</td>
+          </tr>
+          <tr>
+            <td>Attack on Titan</td>
+            <td>Klonoa</td>
+            <td>Martyrs</td>
+            <td>Death Note Ending 3 Theme</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Forms -->
+      <form>
+        <!-- E-Mail Field -->
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+          </div>
+
+          <!-- Contacting Selection -->
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Select</option>
+              <option value="Option 2">Question</option>
+              <option value="Option 3">Business Inquiry</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Message Box -->
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Steven …" id="exampleMessage"></textarea>
+
+        <!-- Checkbox -->
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+
+        <!-- Submit Button -->
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+      
+      <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+      
+      <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+
+      <!-- GRID System (12 columns) -->
+      <div class="row">
+          <div class="eight columns" id="grid-color">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque voluptatem reprehenderit officia tempore velit inventore tempora debitis fugit ipsa excepturi aperiam iusto, possimus quibusdam corporis quod deleniti molestias magni quisquam, minus aspernatur? Expedita atque error temporibus officiis culpa laboriosam!
+          </div>
+          <div class="four columns" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque voluptatem reprehenderit officia tempore velit inventore tempora debitis fugit ipsa excepturi aperiam iusto, possimus quibusdam corporis quod deleniti molestias magni quisquam, minus aspernatur? Expedita atque error temporibus officiis culpa laboriosam!
+          </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="six columns" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque voluptatem reprehenderit officia tempore velit inventore tempora debitis fugit ipsa excepturi aperiam iusto, possimus quibusdam corporis quod deleniti molestias magni quisquam, minus aspernatur? Expedita atque error temporibus officiis culpa laboriosam!
+        </div>
+        <div class="six columns" id="grid-color">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloremque voluptatem reprehenderit officia tempore velit inventore tempora debitis fugit ipsa excepturi aperiam iusto, possimus quibusdam corporis quod deleniti molestias magni quisquam, minus aspernatur? Expedita atque error temporibus officiis culpa laboriosam!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-third column" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt!
+        </div><div class="one-third column" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt!
+        </div><div class="one-third column" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, deserunt!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-half column" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ex.
+        </div>
+        <div class="one-half column" id="grid-color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ex.
+        </div>
+    </div>
+
+    <br>
+
+</body>
+</html>
