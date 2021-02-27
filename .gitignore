@@ -1,3 +1,7 @@
 .vscode/
 src/gallery/
-src/templates
+src/templates/audio.html
+src/templates/automatic-slider-one.html
+src/templates/automatic-slider-two.html
+src/templates/carousel.html
+src/templates/manipulation.html
