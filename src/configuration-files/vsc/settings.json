@@ -1,0 +1,54 @@
+{
+    "workbench.sideBar.location": "right",
+    "editor.rulers": [80, 120],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "python.autoComplete.extraPaths": [
+        "c:\\users\\steve\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.8_qbz5n2kfra8p0\\localcache\\local-packages\\python38\\site-packages"
+    ],
+    "background.customImages": [
+        "C://Users//Steve//Desktop//Miscellaneous//Other//Chifuyu.png",
+        "C://Users//Steve//Desktop//Miscellaneous//Other//Himeki.png",
+    ],
+    "bookmarks.saveBookmarksInProject": true,
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "right": "0",
+        "bottom": "0",
+        "width": "40%",
+        "height": "35%",
+        "z-index": "9999",
+        "background-size": "contain",
+        "opacity": 0.4,
+        },
+        "background.useDefault": false,
+        "editor.fontSize": 18,
+        "editor.wordWrap": "on",
+        "workbench.iconTheme": "vscode-icons",
+        "liveServer.settings.donotShowInfoMsg": true,
+        "[html]": {
+            "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "workbench.statusBar.visible": true,
+        "files.autoSave": "afterDelay",
+        "latex-workshop.view.pdf.viewer": "tab",
+        "window.zoomLevel": -1,
+        "python.analysis.extraPaths": [
+            "c:\\users\\steve\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.8_qbz5n2kfra8p0\\localcache\\local-packages\\python38\\site-packages"
+        ],
+        "notebook.kernelProviderAssociations": [
+        
+        ],
+        "workbench.colorTheme": "Night Owl (No Italics)",
+        "code-runner.runInTerminal": true,
+        "files.exclude": {
+            "**/.classpath": true,
+            "**/.project": true,
+            "**/.settings": true,
+            "**/.factorypath": true
+        },
+        "glassit.alpha": 235
+}
